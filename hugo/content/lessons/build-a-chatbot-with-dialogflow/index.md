@@ -60,7 +60,7 @@ Bot recognizes question/intent and fulfills the request by updating Firestore fr
 
 ### Actions and Parameters
 
-In this example, we want our bot to determine the user's preferred display name and favorite color. We can do that my providing prompts that extract that data. After all required params have been extracted, we will use them to permanently update the user's record in the Firestore database. Dialogflow will ask the questions specified as *promts* until it receives a valid *entity* value for that param. 
+In this example, we want our bot to determine the user's preferred display name and favorite color. We can do that my providing prompts that extract that data. After all required params have been extracted, we will use them to permanently update the user's record in the Firestore database. Dialogflow will ask the questions specified as *prompts* until it receives a valid *entity* value for that param. 
 
 {{< figure src="img/params.png" alt="Dialogflow action and params" >}}
 
